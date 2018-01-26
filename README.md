@@ -15,5 +15,9 @@ Step3: add trigger to the lambda (choose s3 to trigger this lamnda to get execut
 
 
 Step4: choose bucket and event type (Object created) and save the settings.
+![Throughput Graph](https://github.com/PiyushMittl/uploader-s3jar-to-function/blob/master/givebucket_eventtype.PNG)
 
-Step5: 
+Step5: choose handler info as com.ituple.ci.s3trigger.callback.CallBack::customHandleRequest.
+![Throughput Graph](https://github.com/PiyushMittl/uploader-s3jar-to-function/blob/master/addtrigger.PNG)
+
+Step6: save
