@@ -1,23 +1,30 @@
 # uploader-s3jar-to-function
 
 
-package package com.ituple.ci.s3trigger.callback; contains CallBack.java which is the class, will fetch all the information from S3 for uploaded file.
+### package package com.ituple.ci.s3trigger.callback; contains CallBack.java 
+which is the class, will fetch all the information from S3 for uploaded file.
 
 please find the below steps to trigger lambda to fetch all the information from S3 for uploaded file.
 
 
-Step1: create jar for the project uploader-s3jar-to-function. mvn clean compile install (goto target folder and pick the jar file for this project)
+### Step1: 
+create jar for the project uploader-s3jar-to-function. mvn clean compile install (goto target folder and pick the jar file for this project)
 
-Step2: create a lambda function
+### Step2: 
+create a lambda function
 
-Step3: add trigger to the lambda (choose s3 to trigger this lamnda to get executed)
+### Step3: 
+add trigger to the lambda (choose s3 to trigger this lamnda to get executed)
 ![Throughput Graph](https://github.com/PiyushMittl/uploader-s3jar-to-function/blob/master/addtrigger.PNG)
 
 
-Step4: choose bucket and event type (Object created) and save the settings.
+### Step4: 
+choose bucket and event type (Object created) and save the settings.
 ![Throughput Graph](https://github.com/PiyushMittl/uploader-s3jar-to-function/blob/master/givebucket_eventtype.PNG)
 
-Step5: choose handler info as com.ituple.ci.s3trigger.callback.CallBack::customHandleRequest.
+### Step5: 
+choose handler info as com.ituple.ci.s3trigger.callback.CallBack::customHandleRequest.
 ![Throughput Graph](https://github.com/PiyushMittl/uploader-s3jar-to-function/blob/master/handler.PNG)
 
-Step6: save
+### Step6: 
+save
