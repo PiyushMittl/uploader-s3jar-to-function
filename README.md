@@ -7,4 +7,11 @@ please find the below steps to trigger lambda to fetch all the information from 
 
 
 Step1: create jar for the project uploader-s3jar-to-function. mvn clean compile install (goto target folder and pick the jar file for this project)
-Step2: create a lambda function 
+
+Step2: create a lambda function
+
+Step3: add trigger to the lambda (choose s3 to trigger this lamnda to get executed)
+
+Step4: choose bucket and event type (Object created) and save the settings.
+
+Step5: 
