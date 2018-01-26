@@ -18,6 +18,6 @@ Step4: choose bucket and event type (Object created) and save the settings.
 ![Throughput Graph](https://github.com/PiyushMittl/uploader-s3jar-to-function/blob/master/givebucket_eventtype.PNG)
 
 Step5: choose handler info as com.ituple.ci.s3trigger.callback.CallBack::customHandleRequest.
-![Throughput Graph](https://github.com/PiyushMittl/uploader-s3jar-to-function/blob/master/addtrigger.PNG)
+![Throughput Graph](https://github.com/PiyushMittl/uploader-s3jar-to-function/blob/master/handler.PNG)
 
 Step6: save
