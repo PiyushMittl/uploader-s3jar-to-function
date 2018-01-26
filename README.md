@@ -11,7 +11,8 @@ Step1: create jar for the project uploader-s3jar-to-function. mvn clean compile 
 Step2: create a lambda function
 
 Step3: add trigger to the lambda (choose s3 to trigger this lamnda to get executed)
-https://github.com/PiyushMittl/uploader-s3jar-to-function/blob/master/addtrigger.PNG
+![Throughput Graph](https://github.com/PiyushMittl/uploader-s3jar-to-function/blob/master/addtrigger.PNG)
+
 
 Step4: choose bucket and event type (Object created) and save the settings.
 
